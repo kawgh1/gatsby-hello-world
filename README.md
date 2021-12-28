@@ -4,8 +4,10 @@
   - **npm install -g gatsby-cli**
 - Then build new project
   - **gatsby new tutorial https://github.com/gatsbyjs/gatsby-starter-hello-world**
-  - Gatsby provides a number of already configured beautiful starter templates which is where this very basic Hello World was taken from
-    - https://www.gatsbyjs.com/starters/
+    - Gatsby provides a number of already configured beautiful starter templates which is where this very basic Hello World was taken from
+  - https://www.gatsbyjs.com/starters/
+- To spin up in the browser at **localhost:8000** enter:
+  - **gatsby develop**
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">

@@ -15,13 +15,13 @@
 - **node_modules** - no reason to mess with this
 - **public** - same as always
 - **src** - same as always
-- **static** - here we can put resources that will be publicly available - however, do **NOT** dump all your image files here. Files from this static folder are not optimized and receive no Gatsby magic when referenced directly from this folder
+- **static** - here we can put resources that will be publicly available - however, do **NOT** dump all your image files here and think you are done. Files from this static folder are not optimized and receive no Gatsby magic when referenced directly from this folder alone without further code configurations
 
 # Useful Commands (scripts from package.json)
 
 - **gatsby build**
 - **gatsby serve** - takes the build and gives you a production version of the app on **localhost:9000**
-- \***\*gatsby clean\*\*** - Very useful when working with images and other resources, sometimes too many code changes on the same asset can cause glitches with Gatsby optimizations - this command clears the .cache, public folders and regenerates them fresh
+- **gatsby clean** - Very useful when working with images and other resources, sometimes too many code changes on the same asset can cause glitches with Gatsby optimizations - this command clears the .cache, public folders and regenerates them fresh
   - If you get an bizarre error and not sure what it is, run **gatsby clean** first
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->

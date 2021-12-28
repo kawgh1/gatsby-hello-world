@@ -1,3 +1,12 @@
+# Gastby Hello World Tutorial
+
+- First make sure Gatsby-CLI is installed
+  - **npm install -g gatsby-cli**
+- Then build new project
+  - **gatsby new tutorial https://github.com/gatsbyjs/gatsby-starter-hello-world**
+  - Gatsby provides a number of already configured beautiful starter templates which is where this very basic Hello World was taken from
+    - https://www.gatsbyjs.com/starters/
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
